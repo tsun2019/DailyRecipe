@@ -1,0 +1,48 @@
+body,html{
+    height:100%;
+}
+
+/*h0me/center are t0 center the h0me page*/
+.home{
+    margin-top: 52px;
+    background: url('../images/recipe.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	display:table;
+/*    z-index:9999;*/
+    overflow: hidden;
+}
+.center{
+    display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    
+}
+.center h1{
+    color: white;
+}
+.center label{
+    color: white;
+}
+#btn {
+    background-color: #ffc04c;
+}
+
+
+.navbar-default{
+    background-color: #ffb732;
+    
+}
+
+.dropdown-show {
+    font-family: 'Josefin Slab', serif;
+}
+
+.fa {
+    padding-right: 5px;
+}
